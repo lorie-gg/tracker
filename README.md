@@ -26,6 +26,7 @@ This empirical visual data is integrated into a dynamic bond graph model to math
 ## 📂 Repository Structure
 
 ```text
-├── color_picker.py    # GUI for dynamic HSV threshold calibration
-├── tracker.py         # Main OpenCV pipeline for extracting coordinates
+├── colour picker.py    # GUI for dynamic HSV threshold calibration
+├── Right Hand Tracker.py         # Main OpenCV pipeline for extracting coordinates for the right hand
+├── Left Hand Tracker.py         # Main OpenCV pipeline for extracting coordinates for the left hand
 └── README.md
