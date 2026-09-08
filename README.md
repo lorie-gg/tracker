@@ -23,10 +23,14 @@ This empirical visual data is integrated into a dynamic bond graph model to math
 * **Data Processing:** Python (Dataset structuring and mathematical scaling)
 * **Academic Documentation:** LaTeX (IEEEtran standard)
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── colour picker.py    # GUI for dynamic HSV threshold calibration
 ├── Right Hand Tracker.py         # Main OpenCV pipeline for extracting coordinates for the right hand
 ├── Left Hand Tracker.py         # Main OpenCV pipeline for extracting coordinates for the left hand
+├── right_hand_data.csv         # Raw data from the right hand tracker
+├── right_hand_distance.csv         # Filtered data from the right hand tracker 
+├── left_hand_data.csv         # Raw data from the left hand tracker
+├── left_hand_distance.csv         # Filtered data from the left hand tracker 
 └── README.md
